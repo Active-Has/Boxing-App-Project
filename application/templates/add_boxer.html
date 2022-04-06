@@ -1,0 +1,30 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+    <body>
+        <h1>Add a new boxer</h1>
+        <p>
+            <div class="form"> 
+                <form methods="POST" actions="">
+                    {{ form.hidden_tag() }}
+
+                    {{ form.first_name.label }} {{ form.first_name }}
+                    <br>
+                    {{ form.last_name.label }} {{ form.last_name }}
+                    <br>
+                    {{ form.weight_class.label }} {{ form.weight_class }}
+                    <br>
+                    {{ form.stance.label }} {{ form.stance }}
+                    <br>
+                    {{ form.fighting_licence.label }} {{ form.fighting_licence }}
+                    <br>
+                    {{ form.club_id.label }} {{ form.club_id }}
+                    <br>
+                    {{ form.submit }}
+                    <br>
+
+                </form>
+            </div>
+        </p>
+    </body>
+{% endblock content %}

@@ -1,0 +1,22 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+<title>Boxing App</title>
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Boxing App</h1>
+<h4>Use the menu to select your option</h4>
+
+{% if message %}
+<h2>{{ message }}</h2>
+
+{% endif %}
+{% for club in all_clubs %}
+<p> Club name:{{ club.club_name}}</p>
+<p> Address:{{club.address}}</p>
+<p> Licence:{{club.licence}}</p>
+{% endfor %}
+{% endblock %}
+
+

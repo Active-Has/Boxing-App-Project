@@ -1,0 +1,24 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+    <body>
+        <h1>Add a new club</h1>
+        <p>
+            <div class="form"> 
+                <form methods="POST" actions="">
+                    {{ form.hidden_tag() }}
+
+                    {{ form.club_name.label }} {{ form.club_name }}
+                    <br>
+                    {{ form.address.label }} {{ form.address }}
+                    <br>
+                    {{ form.licence.label }} {{ form.licence }}
+                    <br>
+                    {{ form.submit }}
+                    <br>
+
+                </form>
+            </div>
+        </p>
+    </body>
+{% endblock content %}

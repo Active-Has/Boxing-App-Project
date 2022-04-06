@@ -2,13 +2,16 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import pymysql
 import os
+from os import getenv
+
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:Password@34.142.75.134:3306/flask_db"
+
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DATABASE_URI")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.config['SECRET_KEY'] = str(os.getenv('SECRET_KEY'))
+app.config["SECRET_KEY"] = "SECRET_KEY"
+# app.config['SECRET_KEY'] = str(os.getenv('SECRET_KEY'))
 
 db = SQLAlchemy(app)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+from application import routes

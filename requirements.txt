@@ -5,8 +5,6 @@ Flask-WTF
 PyMySQL
 pyparsing
 pytest
-python3
-python3-venv
 pytest-cov
 SQLAlchemy
 WTForms
