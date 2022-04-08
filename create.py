@@ -4,7 +4,7 @@ from application.models import Boxing_TMT, Boxer
 db.drop_all()
 db.create_all()
 
-# tmt1 = Boxing_TMT(club_name='Boxing TMT', address='24 Florida St', license='yes')
+# tmt1 = Boxing_TMT(club_name='Boxing TMT', address='24 Florida St', licence='yes')
 # db.session.add(tmt1)
 # db.session.commit()
 

@@ -6,17 +6,19 @@
 
 {% block content %}
 <h1>Welcome to the Boxing App</h1>
-<h4>Use the menu to select your option</h4>
+<p>Use the menu to select your option</p><br>
 
 {% if message %}
 <h2>{{ message }}</h2>
 
 {% endif %}
+<h3> Boxing Clubs: </h3><br>
 {% for club in all_clubs %}
-<p> Club name:{{ club.club_name}}</p>
-<p> Address:{{club.address}}</p>
-<p> Licence:{{club.licence}}</p>
+<h4> Club name: {{ club.club_name}}</h4>
+<p> Address: {{club.address}}</p>
+<p> Licence: {{club.licence}}</p><br>
 {% endfor %}
+
 {% endblock %}
 
 

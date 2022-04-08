@@ -1,0 +1,23 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+<title>Edit Club</title>
+{% endblock %}
+
+{% block content %}
+<h2> Edit Club </h2><br>
+<br>
+<div>
+    <form action="{{ url_for('edit_club', club_name=edit_1_club.club_name) }}" method="POST">
+        {{ form.hidden_tag() }}
+
+        {{ form.club_name.label }} {{ form.club_name }}
+        <br>
+        {{ form.address.label }} {{ form.address }}
+        <br>
+        {{ form.licence.label }} {{ form.licence }}
+        <br>
+        {{ form.submit }}
+    </form>
+</div>
+{% endblock content %}

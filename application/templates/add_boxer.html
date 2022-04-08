@@ -5,7 +5,7 @@
         <h1>Add a new boxer</h1>
         <p>
             <div class="form"> 
-                <form methods="POST" actions="">
+                <form method="POST" actions="">
                     {{ form.hidden_tag() }}
 
                     {{ form.first_name.label }} {{ form.first_name }}
@@ -18,7 +18,7 @@
                     <br>
                     {{ form.fighting_licence.label }} {{ form.fighting_licence }}
                     <br>
-                    {{ form.club_id.label }} {{ form.club_id }}
+                    {{ form.club_name.label }} {{ form.club_name }}
                     <br>
                     {{ form.submit }}
                     <br>

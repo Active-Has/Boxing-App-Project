@@ -1,0 +1,29 @@
+{% extends 'navbar.html' %}
+
+{% block title %}
+<title>Edit Boxer</title>
+{% endblock %}
+
+{% block content %}
+<h2> Edit Boxer </h2><br>
+<br>
+<div>
+    <form action="{{ url_for('edit_boxer', first_name=edit_1_boxer.first_name) }}" method="POST">
+        {{ form.hidden_tag() }}
+
+        {{ form.first_name.label }} {{ form.first_name }}
+        <br>
+        {{ form.last_name.label }} {{ form.last_name }}
+        <br>
+        {{ form.weight_class.label }} {{ form.weight_class }}
+        <br>
+        {{ form.stance.label }} {{ form.stance }}
+        <br>
+        {{ form.fighting_licence.label }} {{ form.fighting_licence }}
+        <br>
+        {{ form.club_name.label }} {{ form.club_name }}
+        <br>
+        {{ form.submit }}
+    </form>
+</div>
+{% endblock content %}

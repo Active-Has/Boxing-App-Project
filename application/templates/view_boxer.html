@@ -1,6 +1,6 @@
 {% extends 'navbar.html' %}
 
-% block title %}
+{% block title %}
 <title>Boxer Data</title>
 {% endblock %}
 
@@ -10,13 +10,13 @@
 <h2>{{ message }}</h2>
 
 {% endif %}
-{for boxer in all_boxers %}
-<p> Boxer name:{{ boxer.first_name}}</p>
-<p> Last name:{{boxer.last_name}}</p>
-<p> Weight class:{{boxer.weight_class}}</p>
-<p> Stance:{{boxer.stance}}</p>
-<p> Fighting licence:{{boxer.fighting_licence}}</p>
-<p> Club:{{boxer.club_id}}</p>
+{% for boxer in all_boxers %}
+<h4> Boxer name: {{ boxer.first_name}}</h4>
+<p> Last name: {{boxer.last_name}}</p>
+<p> Weight class: {{boxer.weight_class}}</p>
+<p> Stance: {{boxer.stance}}</p>
+<p> Fighting licence: {{boxer.fighting_licence}}</p>
+<p> Club ID: {{boxer.boxing_club}}</p><br>
 {% endfor %}
-{% endblock %}
+{% endblock content %}
 
