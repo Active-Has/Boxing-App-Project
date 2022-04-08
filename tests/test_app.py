@@ -30,3 +30,4 @@ class TestView(TestBase):
     def test_add_boxing(self):
         response = self.client.get(url_for('add_boxing_club'))
         self.assertEqual(response.status_code, 200)
+
