@@ -43,4 +43,5 @@ Board was used as seen in the image below.
 At first it is clear to see that the project must have recently started as the only completed
 tasks was the User Stories and the ERD Diagram.
 
+
 When developing an application that requires user interaction, several issues which must be addressed regarding the user’s privacy
