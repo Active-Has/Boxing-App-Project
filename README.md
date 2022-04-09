@@ -57,11 +57,32 @@ as the Flask implementation and Front End Development.
 
 
 ### Risk Assessment ###
-A risk assessment had to be done for this project so some action could be taken to counteract 
-any risk that could have cropped at anytime. A risk assessment also gives the developer a chance 
-to perhaps implement any measures which could be taken before any risks actually happen. 
+When developing an application that requires user interaction, several issues which must be
+addressed regarding the user’s privacy. A risk assessment had to be done for this project so 
+some action could be taken to counteract any risk that could have cropped at anytime. A risk 
+assessment also gives the developer a chance to perhaps implement any measures which could be taken 
+before any risks actually happen. 
 
 ![Risk assessment](https://user-images.githubusercontent.com/101266487/162586275-08f76a48-6d44-4bb8-be71-ed8d10db2ec0.JPG)
 
 
-When developing an application that requires user interaction, several issues which must be addressed regarding the user’s privacy
+### Functional Requirements & User Stories ###
+The functional requirements are how the application will function and highlighting all the 
+features that will included in the application. Also, the functional requirements are primarily 
+based at the use cases (the user, system functional requirements, goals) for this project and will 
+guarantee a fully purposeful application.
+
+![Functional Requirements](https://user-images.githubusercontent.com/101266487/162586823-75b3b98c-d6a1-45f8-8836-11cc63df8fcd.JPG)
+
+A user story is used to see the end goal which is expressed in the uers perspective. Furthermore, a user
+story works well with the functional requirments stated above as it would give a developer what
+must be required for this project to be a success. A few user stories are lsisted below:
+-	As a user I want to view the list of boxers so that I can see which boxers have a license to fight
+-	As a user I want to view one boxer so that I edit the boxer’s details
+-	As a user I want to edit the boxer so that I can confirm the boxer has a licence
+-	As a user I want to view the boxing club details so I can see the location of the boxing club
+-	As a user I want to view the list of boxers so that I can see which boxing club the boxer fights for
+
+
+### ERD Diagram ###
+
