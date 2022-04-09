@@ -85,4 +85,14 @@ must be required for this project to be a success. A few user stories are lsiste
 
 
 ### ERD Diagram ###
+ERD stands for Entity Relationship Diagram, which shows the internal structure of the database which
+needs to implemented. This allows the developer to map out the relationship between two tables or more.
+In this instance a UML ERD diagram was created which is shown below.
+
+![Boxing app](https://user-images.githubusercontent.com/101266487/162588062-25114e64-a38d-44a4-b3e2-3c833e5368a7.jpg)
+
+As shown in the ERD, the database models a one-to-many relationship between all three tables. The 
+tables that have been highlighted in green will be the one that must be implemented and created for 
+the applicaiton, whereas the red table might be implemented if the first two are implemented and the 
+developer has time to create another table before the deadline is due.
 
