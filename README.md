@@ -96,3 +96,17 @@ tables that have been highlighted in green will be the one that must be implemen
 the applicaiton, whereas the red table might be implemented if the first two are implemented and the 
 developer has time to create another table before the deadline is due.
 
+
+### CI Pipeline ###
+CI commonly known as Continuous Integration is the automated integration of code from the contributors 
+into a project. The purpose of the CI pipeline is to allow developers to integrate newly-generated 
+code easily and frequently. This is achieved through the used of automated testing tools to check 
+if the code is correct before fully integrating it. 
+So in this instance of the CI pipeline for this project, (in the picture below) code produced on 
+the local machine would get pushed to GitHub, which in turn is pushed into Jenkins. Jenkins then
+automatically runs test which produces a report.
+
+![CI Pipeline](https://user-images.githubusercontent.com/101266487/162598121-d9b4eeb3-7abf-4b36-8e67-4458ab18e01a.jpg)
+
+
+
