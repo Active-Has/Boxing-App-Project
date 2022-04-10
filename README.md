@@ -4,7 +4,7 @@
 # Contents
 * [ Project Objective ](#obj)
 * [ Project Planning ](#plans)
-* 
+* [ Front End Design ](#FED)
 
 
 <a name="obj"></a>
@@ -107,6 +107,44 @@ the local machine would get pushed to GitHub, which in turn is pushed into Jenki
 automatically runs test which produces a report.
 
 ![CI Pipeline](https://user-images.githubusercontent.com/101266487/162598121-d9b4eeb3-7abf-4b36-8e67-4458ab18e01a.jpg)
+
+
+<a name="FED"></a>
+## Front End Design
+The front-end of the application was mainly built on very simple HTML code on visual studio. 
+The aim is to produce a a simple but working application with a navigation bar for user to navigate 
+around the URL. When first loading the boxing application, the user will be met with with imahge below. 
+As seen below the users are greeted with a welcome page with a navigation bar at the top. 
+Furthermore, looking at the welcome page; the users are also shown a title with 'Boxing Clubs:',
+but is seem empty. Therefore the user can navigate (using the navbar) to the add boxing club tab.
+
+![Home page no boxers](https://user-images.githubusercontent.com/101266487/162627545-ba59701a-f158-48e3-8374-6c00479dc215.JPG)
+
+When the user is adding a new club, they are met with the image below where they can add a new club 
+with their desired name and location. Furthermore, the user has a drop down menu where they can confirm 
+if the boxing club has a licence or not.
+
+![Add club](https://user-images.githubusercontent.com/101266487/162627668-12b03542-8b91-4afc-bf63-8923fe44cc2b.JPG)
+
+After adding the new club, the user will be redirected to the home screen which will now be populated
+with the clubs they have created as seen below, for example 'The Money Team' club has been created 
+and is viewed first.
+
+![Home page with clubs](https://user-images.githubusercontent.com/101266487/162627747-cb296575-1b5c-49e4-b9f6-ea02406d4dbe.JPG)
+
+After creating a club the user then can create a boxer with again with the desired name and 
+weight class ect, as shown in the example below. Also, when defining the what club the boxer is
+in, the user has to type in the club id. The club id is set up in a way where the first ever club 
+created will be club id and so on.
+
+![Add boxer](https://user-images.githubusercontent.com/101266487/162628130-e453caa5-cfde-42ca-8191-105e04ed50f2.JPG)
+
+When clicking the add boxer button, the user will be redirected to the view boxer page automatically
+so you can view the boxer to see their details and to see what club it is assigned to. This is shown 
+in the image below.
+
+
+
 
 
 
