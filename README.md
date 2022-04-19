@@ -5,6 +5,7 @@
 * [ Project Objective ](#obj)
 * [ Project Planning ](#plans)
 * [ Front End Design ](#FED)
+* [ Testing and Automation](#TA)
 
 
 <a name="obj"></a>
@@ -141,10 +142,33 @@ created will be club id and so on.
 
 When clicking the add boxer button, the user will be redirected to the view boxer page automatically
 so you can view the boxer to see their details and to see what club it is assigned to. This is shown 
-in the image below.
+in the image below. The screenshot shows the first name, last name, the weight class, stance, fighting 
+licence and the Club ID. The club ID is given as a number as it is the second club created in this
+example. So club ID 2 refers to is Warriors. 
+
+![View Boxer](https://user-images.githubusercontent.com/101266487/163691475-2193245d-637d-4d9d-942a-41a7294491bd.JPG)
+
+Another feature this application has is the edit and delete function. As seen below the user can either 
+edit the boxing club or delete the boxing club. However, since there are bxoers assigned to the club, 
+you cannot delete the club as the two are linked. Therefore, the boxer must be deleted first before the
+club is.
+
+![Edit clubs](https://user-images.githubusercontent.com/101266487/163833735-b0502f14-e04b-460c-8a26-f9a731640509.JPG)
 
 
+<a name="TA"></a>
+## Testing and Automation
+To test the python programs, pytest was used. This tests all of the written code to see if there are 
+any issues that may need correcting. Using pytest --cov, this allows us to show the coverage which can 
+be seen in the image below. These tests are designed to test the apps functionality which are the use 
+of the CRUD functionality and the routing of it. The image below shows the test coverage of these 
+functions to be 90%.
 
+![pytest](https://user-images.githubusercontent.com/101266487/163870444-8fbac267-c39a-4e22-bfe2-f4fadcb72392.JPG)
 
+If the tests was ever to fail for some reason. The reason for this fault to occur can be indentified 
+in the terminal where pytest was entered as seen in the image below.
+
+![failed pytest](https://user-images.githubusercontent.com/101266487/163871277-da98ea86-c7dd-4e84-97b5-da3f4e1a335d.JPG)
 
 
