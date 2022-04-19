@@ -158,6 +158,17 @@ club is.
 
 <a name="TA"></a>
 ## Testing and Automation
+To test the python programs, pytest was used. This tests all of the written code to see if there are 
+any issues that may need correcting. Using pytest --cov, this allows us to show the coverage which can 
+be seen in the image below. These tests are designed to test the apps functionality which are the use 
+of the CRUD functionality and the routing of it. The image below shows the test coverage of these 
+functions to be 90%.
 
+![pytest](https://user-images.githubusercontent.com/101266487/163870444-8fbac267-c39a-4e22-bfe2-f4fadcb72392.JPG)
+
+If the tests was ever to fail for some reason. The reason for this fault to occur can be indentified 
+in the terminal where pytest was entered as seen in the image below.
+
+![failed pytest](https://user-images.githubusercontent.com/101266487/163871277-da98ea86-c7dd-4e84-97b5-da3f4e1a335d.JPG)
 
 
