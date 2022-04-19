@@ -17,14 +17,13 @@ class Boxing_TMT(db.Model):
 
 
 class Boxer(db.Model):
-    __tablename__ = 'boxer'
     id = db.Column(db.Integer, primary_key=True)
     first_name = db.Column(db.String(10), nullable=False)
     last_name = db.Column(db.String(10), nullable=False)
     weight_class = db.Column(db.String(15), nullable=False)
     stance = db.Column(db.String(10), nullable=False)
     fighting_licence = db.Column(db.String(3), nullable=False)
-    boxing_club = db.Column(db.String, db.ForeignKey('boxingtmt.id'), nullable=False)
+    boxing_club = db.Column(db.Integer(), db.ForeignKey('boxingtmt.id'))
 
 # class Coach(db.Model):
 #     id = db.Column(db.Integer, primary_key=True) 
@@ -78,7 +77,5 @@ class AddBoxerForm(FlaskForm):
     fighting_licence = SelectField('Fighting Licence', choices=[('yes', 'Yes'), ('no', 'No')])
     club_name = SelectField('Boxing Club', choices=[])
     submit = SubmitField('Add Boxer')
-
-
 
 
