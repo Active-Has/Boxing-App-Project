@@ -6,6 +6,7 @@
 * [ Project Planning ](#plans)
 * [ Front End Design ](#FED)
 * [ Testing and Automation](#TA)
+* [ Future Development](#FD)
 
 
 <a name="obj"></a>
@@ -172,3 +173,34 @@ in the terminal where pytest was entered as seen in the image below.
 ![failed pytest](https://user-images.githubusercontent.com/101266487/163871277-da98ea86-c7dd-4e84-97b5-da3f4e1a335d.JPG)
 
 
+### Jenkins ###
+In this project, Jenkins would have been used as the CI server which list of commands is excuted in
+order to install the various requirements and dependencies of the project. Furthermore, a virtual 
+environment would be created and the database URI will be exported before the application is launched.
+However, in this project, Jenkins was unable to be downloaded due to the inital admin password never 
+loading as seen in the image below. After googling this problem, the problem cannot be solved and 
+therefore the continuous use of Jenkins could not be used.
+
+![jenkins failed](https://user-images.githubusercontent.com/101266487/163905601-480eb972-ccaa-43a7-9e92-2177b171a8d1.JPG)
+
+
+<a name="FD"></a>
+## Future Development
+As this application was not a fully functioning end product, there was more work that would be needed 
+to get it close to the end product. This is:
+- Adding an error page when trying to delete a club with a boxer assigned to the club
+- Another feature such as adding an addtional page for coaches which is highlighted red in the ERD diagram above
+- Better UI design could be used instead of making the page look plain and simple
+- A more welcoming home page with details of how the application works
+- Adding a view page for the clubs and having edit and delete clubs in the view clubs page instead of the homepage
+- Continuous use of Jenkins be deployed if the initial admin password is given
+
+
+## Acknowledgements
+* Earl Gray (QA Tutor)
+* Harry Volter (QA Tutor)
+* QA Community
+
+
+## Authors
+**Hasnaath Ali**
