@@ -76,9 +76,9 @@ guarantee a fully purposeful application.
 
 ![Functional Requirements](https://user-images.githubusercontent.com/101266487/162586823-75b3b98c-d6a1-45f8-8836-11cc63df8fcd.JPG)
 
-A user story is used to see the end goal which is expressed in the uers perspective. Furthermore, a user
-story works well with the functional requirments stated above as it would give a developer what
-must be required for this project to be a success. A few user stories are lsisted below:
+A user story is used to see the end goal which is expressed in the users perspective. Furthermore, a user
+story works well with the functional requirements stated above as it would give a developer what
+must be required for this project to be a success. A few user stories are listed below:
 -	As a user I want to view the list of boxers so that I can see which boxers have a license to fight
 -	As a user I want to view one boxer so that I edit the boxer’s details
 -	As a user I want to edit the boxer so that I can confirm the boxer has a licence
@@ -106,7 +106,7 @@ code easily and frequently. This is achieved through the used of automated testi
 if the code is correct before fully integrating it. 
 So in this instance of the CI pipeline for this project, (in the picture below) code produced on 
 the local machine would get pushed to GitHub, which in turn is pushed into Jenkins. Jenkins then
-automatically runs test which produces a report.
+automatically runs tests which produces a report.
 
 ![CI Pipeline](https://user-images.githubusercontent.com/101266487/162598121-d9b4eeb3-7abf-4b36-8e67-4458ab18e01a.jpg)
 
@@ -114,8 +114,8 @@ automatically runs test which produces a report.
 <a name="FED"></a>
 ## Front End Design
 The front-end of the application was mainly built on very simple HTML code on visual studio. 
-The aim is to produce a a simple but working application with a navigation bar for user to navigate 
-around the URL. When first loading the boxing application, the user will be met with with imahge below. 
+The aim is to produce a simple but working application with a navigation bar for user to navigate 
+around the URL. When first loading the boxing application, the user will be met with the image below. 
 As seen below the users are greeted with a welcome page with a navigation bar at the top. 
 Furthermore, looking at the welcome page; the users are also shown a title with 'Boxing Clubs:',
 but is seem empty. Therefore the user can navigate (using the navbar) to the add boxing club tab.
